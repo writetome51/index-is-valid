@@ -1,0 +1,32 @@
+{
+  "name": "@writetome51/index-is-valid",
+  "version": "1.0.0",
+  "description": "Function returns true or false based on whether or not a certain index can exist in a certain array length",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/index-is-valid.git"
+  },
+  "keywords": [
+    "array",
+    "index",
+    "exists",
+    "valid",
+    "validation",
+    "validator"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/writetome51/index-is-valid/issues"
+  },
+  "homepage": "https://github.com/writetome51/index-is-valid#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "basic-data-handling": "~1.0.15"
+  }
+}
