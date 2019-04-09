@@ -1,4 +1,4 @@
-import { errorIfNotInteger } from 'basic-data-handling/errorIfNotInteger';
+import { errorIfNotInteger } from 'error-if-not-integer';
 
 
 // index can be negative or positive.
