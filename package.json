@@ -3,11 +3,7 @@
   "version": "2.0.0",
   "description": "Function returns true or false based on whether or not a certain index can exist in a certain array length",
   "type": "module",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc"
-  },
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/writetome51/index-is-valid.git"

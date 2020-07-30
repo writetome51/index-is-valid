@@ -1,4 +1,4 @@
-import { indexIsValid } from './index';
+import { indexIsValid } from './index.js';
 if (indexIsValid(0, 1))
     console.log('test 1 passed');
 else
