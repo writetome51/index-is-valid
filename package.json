@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/index-is-valid",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Function returns true or false based on whether or not a certain index can exist in a certain array length",
   "type": "module",
   "main": "index.js",
@@ -24,6 +24,5 @@
   "homepage": "https://github.com/writetome51/index-is-valid#readme",
   "devDependencies": {},
   "dependencies": {
-    "error-if-not-integer": "^2.0.0"
   }
 }
