@@ -1,4 +1,10 @@
 import { indexIsValid } from './index.js';
+
+if (typeof indexIsValid(0, 1) === 'boolean')
+	console.log('test 0 passed');
+else
+	console.log('test 0 FAILED');
+
 if (indexIsValid(0, 1))
     console.log('test 1 passed');
 else
@@ -45,16 +51,26 @@ if (!(indexIsValid(5, 5)))
 else
     console.log('test 9 FAILED');
 
-// Make sure it can't modify a number variable.
-let i = -2, len = 2;
-indexIsValid(i, len);
-if (i === -2)
-    console.log('test 10 passed');
+
+if (!(indexIsValid(1, 0)))
+	console.log('test 10 passed');
 else
-    console.log('test 10 FAILED');
+	console.log('test 10 FAILED');
 
 
-if (indexIsValid('-1', '2'))
+if (!(indexIsValid(0, -1)))
 	console.log('test 11 passed');
 else
 	console.log('test 11 FAILED');
+
+
+if (!(indexIsValid(-1, -1)))
+	console.log('test 12 passed');
+else
+	console.log('test 12 FAILED');
+
+if (!(indexIsValid(0, 0)))
+	console.log('test 13 passed');
+else
+	console.log('test 13 FAILED');
+
